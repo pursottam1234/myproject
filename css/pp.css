@@ -1,0 +1,204 @@
+/* title section */
+#name{
+    background-color: #50f1f7c9;
+    border-radius: 5px;
+}
+.content-box-lg img{
+    width: 180px;
+    height: 180px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    margin-left: 4px;
+}
+.content-box-lg .col-md-2 h3{
+    text-align: justify;
+    color: #212226;
+    padding-top: 10%;
+    padding-left: 0.5%;
+    font-size: 40px;
+}
+.content-box-lg .readmorebtn{
+    color: blue;
+    border-color: #aace0aa1;
+    background-color: #aace0aa1;
+    border-radius: 6%;
+    border: 6%;
+    font-style: 100px;
+    margin-top: 4%;
+}
+#name a i{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+/* navigation */
+#navigation{
+    background-color: lightcoral;
+    border-radius: 3px;
+}
+.smallbox{
+      padding-left:0.5%;
+      padding-top:0.5%;
+      padding-bottom:0%;
+  }
+#navigation .col-1 i{
+    font-size: 35px;
+}
+#navigation .input-group-text i{
+    font-size: 24px;
+    padding-left: 2px;
+}
+
+/* home section */
+.carousel-inner .carousel-item img{
+    size: fixed;
+    height: 600px;
+}
+.carousel-inner .carousel-item h4{
+    color: salmon;
+    font-weight: bold;
+}
+.carousel-inner .carousel-item p{
+    color: #0737f7;
+    font-size: 20px;
+}
+
+/* staff section */
+#staffs{
+    background-color: #bdbdbd;
+}
+.aboutbox{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.aboutbox .text-center .btn{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: #eeeeee;
+    border: #eeeeee;
+}
+#staffs .container .row .col-md-3 a{
+    padding-left: 30px;
+}
+#staffs a i{
+    font-size:25px;
+    padding-top: 10px;
+}
+#btn1{
+    padding-top: 2%;
+    padding-left: 45%;
+}
+
+/* room section */
+#room{
+    background-color: #fafafa;
+}
+.container h1{
+    font-weight: 800;
+}
+#room img{
+    height: 200px;
+    width: 260px;
+}
+.center{
+    padding-left: 45%;
+}
+
+/* facilities section */
+#facilities .content-box-lg{
+    margin-top: 5%;
+}
+#facilities .container .row .col-4 .card img{
+    width: 155px;
+    height: 160px;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+#facilities .container .row .col-4 .card-body{
+    height: 212px;
+}
+
+/* booking form */
+#facilities .container .row .col-8{
+    background-image: url(../img/4.jfif);
+    background-position: center;
+    background-size: auto;
+}
+#form{
+    background-color: #000;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    margin-top: 33%;
+    opacity: 0.7;
+
+}
+#first-group{
+    border: 2px solid lime;
+    width: 280px;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 50px;
+}
+#content{
+    border: 1px solid #fff;
+    margin: 10px;
+    margin-left: 8px;
+    padding-left: 2px;
+}
+#content #input-group{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 2px;
+    width: 200px;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+#form .fas{
+    display: inline-block;
+    color: red;
+    border-right: 1px solid #fff;
+    padding: 8px;
+    margin-left: 8px;
+}
+#second-group{
+    border: 2px solid lime;
+    width: 280px;
+    margin-left: 50%;
+    margin-top: 38px;
+}
+#submit-btn{
+    margin-top: 30px;
+    margin-left: 500px;
+    background: transparent;
+    color: #fff;
+    width: 150px;
+    border: 1px solid yellow;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* map */
+#map iframe{
+    width:100%;
+}
+
+/* footer */
+footer{
+    background: rgb(66, 6, 6);
+    padding: 30px;
+}
+footer p{
+    color: #fff;
+    line-height: 5px;
+}
+footer p span{
+    color: #f4c613;
+    font-weight: bold;
+}
